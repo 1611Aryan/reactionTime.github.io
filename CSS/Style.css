@@ -1,0 +1,90 @@
+@charset "utf-8";
+#shape1
+{
+    /*Square*/
+    width:50px;
+    height:50px;
+    background-color:red;
+    display:none;
+    position:relative;
+    border:solid white 1px;
+}
+#shape2
+{
+    /*rectangle*/
+    width:100px;
+    height:50px;
+    background-color:red;
+    display:none;
+    position:relative;
+    border:solid white 1px;
+}
+#shape3
+{
+    /*Circle*/
+    width:50px;
+    height:50px;
+    background-color:red;
+    display:none;
+    border-radius:50%;
+    position:relative;
+    border:solid white 1px;
+}
+#shape4
+{
+    /*diamond*/
+    width:50px;
+    height:50px;
+    background-color:red;
+    display:none;
+    position:relative;
+    border:solid white 1px;
+    transform: rotate(45deg);
+}
+#shape5
+{
+    /*Heart*/
+    width:100px;
+    height:100px;
+    position:relative;
+    transform:rotate(45deg);
+    background-color:red;
+    display:none;
+    color:white;
+    font-size:20px;
+}
+#shape5::before
+{
+    position:absolute;
+    bottom:0px;
+    left:-50px;
+    width:100px;
+    height:100px;
+    content:"";
+    border-radius:50%;
+    background-color:red;
+}
+#shape5::after
+{
+    position:absolute;
+    top:-50px;
+    right:0px;
+    width:100px;
+    height:100px;
+    content:"";
+    border-radius:50%;
+    background-color:red;
+}
+#shape6
+{
+    position:relative;
+    display:none;
+}
+#timeTaken
+{
+    color:white;
+    font-size:30px;
+    padding-left:10px;      
+}
+
+
